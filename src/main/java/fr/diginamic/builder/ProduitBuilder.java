@@ -23,18 +23,18 @@ public class ProduitBuilder {
         return this;
     }
 
-    public ProduitBuilder ajoutIngredient(String nom, double quantiteMilligramme) {
-        produit.ingredients.add(new Ingredient(nom, quantiteMilligramme));
+    public ProduitBuilder ajoutIngredient(String nom, double qteMilligramme) {
+        produit.ingredients.add(new Ingredient(nom, qteMilligramme));
         return this;
     }
 
-    public ProduitBuilder ajoutAllergene(String nom, double quantiteMilligramme) {
-        produit.allergenes.add(new Allergene(nom, quantiteMilligramme));
+    public ProduitBuilder ajoutAllergene(String nom, double qteMilligramme) {
+        produit.allergenes.add(new Allergene(nom, qteMilligramme));
         return this;
     }
 
-    public ProduitBuilder ajoutAdditif(String nom, double quantiteMilligramme) {
-        produit.additifs.add(new Additif(nom, quantiteMilligramme));
+    public ProduitBuilder ajoutAdditif(String nom, double qteMilligramme) {
+        produit.additifs.add(new Additif(nom, qteMilligramme));
         return this;
     }
 
