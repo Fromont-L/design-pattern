@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
-import static org.junit.Assert.assertThrows;
 
 public class ElementFactoryTest {
     @Test
